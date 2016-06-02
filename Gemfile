@@ -22,9 +22,13 @@ gem 'sass-rails', '~> 4.0.3'
 gem 'bootstrap-sass','~>3.3.1'
 gem 'carrierwave', '0.10.0'
 gem 'mini_magick', '3.8.0'
+gem 'sprockets', '2.12.3'
+gem 'bootstrap-glyphicons'
+gem 'will_paginate', '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
 
 # Use font awesome library for icons
-gem 'font-awesome-sass','~> 4.2.0'
+#gem 'font-awesome-sass','~> 4.2.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
