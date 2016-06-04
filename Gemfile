@@ -26,6 +26,7 @@ gem 'sprockets', '2.12.3'
 gem 'bootstrap-glyphicons'
 gem 'will_paginate', '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
+gem 'turbolinks'
 
 # Use font awesome library for icons
 #gem 'font-awesome-sass','~> 4.2.0'
@@ -52,7 +53,7 @@ gem 'devise', '~> 3.4.1'
 # Use ActiveModel has_secure_password
 # Use stripe for handling payments
 gem 'stripe', '~> 1.16.1'
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~>3.1.7'
 
 # Use figaro to hide secret keys
 gem 'figaro','~> 1.0.0'

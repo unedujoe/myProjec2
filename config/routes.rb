@@ -5,8 +5,18 @@ Rails.application.routes.draw do
   
   resources  :recipes  do
     member do
-      get 'like'
+      post 'like'
     end
   end
+  
+  resources  :chefs, except:  [:new]
+  
+  get '/register', to: 'chefs#new'
+  
+  get '/login', to: "logins#new"
+  
+  post '/login', to: "logins#create"
+  
+  get '/logout', to: "logins#destroy"
   
 end
