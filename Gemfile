@@ -27,6 +27,7 @@ gem 'bootstrap-glyphicons'
 gem 'will_paginate', '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
 gem 'turbolinks'
+gem 'fog',  '1.23.0'
 
 # Use font awesome library for icons
 #gem 'font-awesome-sass','~> 4.2.0'
@@ -60,8 +61,6 @@ gem 'figaro','~> 1.0.0'
 
 # Use paperclip for image uploads
 gem 'paperclip', '~> 4.2.1'
-#fog for file handing systems
-gem 'fog', '~> 1.23.0'
 # Use unicorn as the app server
 # gem 'unicorn'
 
