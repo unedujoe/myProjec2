@@ -61,7 +61,7 @@ gem 'figaro','~> 1.0.0'
 # Use paperclip for image uploads
 gem 'paperclip', '~> 4.2.1'
 #fog for file handing systems
-gem 'fog', '1.23.0'
+gem 'fog', '~> 1.23.0'
 # Use unicorn as the app server
 # gem 'unicorn'
 
