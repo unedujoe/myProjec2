@@ -21,8 +21,15 @@
 color: white;
 text-decoration: none;
 }
-.nav-item {
+.nav_item {
   margin-left: 25px;  
+  float: left;
+  margin-top: 20px;
+    
+}
+
+.nav_ul_item {
+  padding-left: 25px;  
   float: left;
   margin-top: 20px;
     
@@ -103,5 +110,8 @@ span.picture{
   margin: 10px 10px 10px 10px;
 }
 
-
+.checkbox-inline input[type="checkbox"] {
+    position: absolute;
+    margin-left: -45px;
+}
 
