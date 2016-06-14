@@ -64,7 +64,7 @@ gem 'paperclip', '~> 4.2.1'
 # Use unicorn as the app server
 # gem 'unicorn'
 
-# Use Capistrano for deployment
+# Use Capistrano for deployments
 # gem 'capistrano-rails', group: :development
 
 # Use debugger
